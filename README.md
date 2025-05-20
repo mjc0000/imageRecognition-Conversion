@@ -48,3 +48,55 @@
 - 教学演示和实验
 
 该工具适用于需要进行基础图像处理和简单计算机视觉任务的用户，特别是在教育、实验和原型开发领域。
+
+
+
+# BMP Image Processing Tool Advanced Edition
+
+This is a comprehensive BMP image processing tool focused on image conversion, analysis, and comparison. Developed in C language and integrated with Windows API, it provides an intuitive user interface suitable for image processing and simple computer vision application scenarios.
+
+## Core Features
+
+1. **Grayscale Conversion**:
+   - Convert color BMP images to grayscale
+   - Automatically generate grayscale images with center cross markers
+   - Support multiple bit depth BMP image processing
+
+2. **Binary Image Conversion**:
+   - Convert images to pure black and white binary images
+   - Support custom threshold settings
+
+3. **JPG to BMP Format Conversion**:
+   - Convert JPG images to BMP format with system Paint tool assistance
+   - Provide detailed operation guidance
+
+4. **Object Detection and Marking**:
+   - Automatically detect objects in binary images
+   - Mark identified objects with red borders
+   - Support object size filtering to ignore noise
+   - Output object position and size information
+
+5. **Image Comparison Analysis**:
+   - Compare differences between two binary images
+   - Generate difference visualization images
+   - Calculate difference percentage
+   - Determine if new objects have entered based on threshold
+
+## Technical Features
+
+- Connected region analysis algorithm for identifying independent objects in images
+- Support for multiple bit depth BMP images (1-bit, 4-bit, 8-bit, 24-bit, and 32-bit)
+- Breadth-First Search (BFS) algorithm for connected region marking
+- Optimized processing logic for different bit depth images
+- Memory management optimization for processing large images
+- Comprehensive error handling mechanisms
+
+## Application Scenarios
+
+- Simple object detection and counting
+- Before and after image comparison analysis
+- Motion detection and change monitoring
+- Image format conversion and preprocessing
+- Teaching demonstrations and experiments
+
+This tool is suitable for users who need to perform basic image processing and simple computer vision tasks, especially in education, experimentation, and prototype development fields.
